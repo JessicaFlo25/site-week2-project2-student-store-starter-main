@@ -1,0 +1,23 @@
+#header2{
+    font-size: 30px;
+    color:white;
+}
+#email{
+    color:white;
+    font:20px;
+}
+
+.contact-us{
+    background-color:#84391B ;
+    color:white;
+    padding:50px;
+    border-radius: 10px;
+    font-family: monospace;
+    margin-left: 0px;
+    align-content: flex-start;
+    text-transform: uppercase;
+}
+
+p {
+    color: white;
+}
