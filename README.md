@@ -22,8 +22,9 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 - [X] User can click on a product in the grid to navigate to a new page containing additional product details.
 
 # Walkthrhough
-<a href="https://www.loom.com/share/2614d108ea784832aba701b76b29732f">
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/2614d108ea784832aba701b76b29732f-with-play.gif">
+<a href="https://www.loom.com/share/87ce1179040d4bf68ebf41c7cca9e13d">
+
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/87ce1179040d4bf68ebf41c7cca9e13d-with-play.gif">
   </a>
 
 ### Stretch Features
