@@ -6,6 +6,7 @@ import NotFound from "../NotFound/NotFound"
 import ProductDetail from "../ProductDetail/ProductDetail"
 import Home from "../Home/Home"
 import "./App.css"
+import Sidebar from "../Sidebar/Sidebar";
 
 //still have to do routes and components, rest of four event handler functions
 
@@ -22,7 +23,7 @@ export default function App() {
 
   useEffect(() => {
     axios
-      .get("https://codepath-store-api.herokuapp.com/store")
+      .get("http://localhost:3001/store")
       .then((response) => {
         setProducts(response.data.products);
         console.log(products)
@@ -37,6 +38,7 @@ export default function App() {
       <BrowserRouter> 
         <main>
         <Navbar />
+        <Sidebar/>
         {/* <Search products={products}/> */}
         <Routes>
           <Route path="/" element={<Home products={products}/>}/>

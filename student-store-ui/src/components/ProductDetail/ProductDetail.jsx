@@ -9,10 +9,9 @@ const ProductDetail = () => {
 
   const fetchProduct = async () => {
   try {
-    const res =  await axios.get(`https://codepath-store-api.herokuapp.com/store/${productId}`)
-    if (res?.data?.product) {
-      setItemDetails(res.data.product)
-      console.log(res.data.product)
+    const res =  await axios.get(`http://localhost:3001/store/${productId}`)
+    if (res?.data) {
+      setItemDetails(res.data.products)
     } else {
       console.error("Something went wrong.")
     }
