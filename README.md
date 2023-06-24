@@ -21,7 +21,7 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 - [X] Users can search for products.
 - [X] User can click on a product in the grid to navigate to a new page containing additional product details.
 
-# Walkthrhough
+# Walkthrough
 <a href="https://www.loom.com/share/87ce1179040d4bf68ebf41c7cca9e13d">
 
     <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/87ce1179040d4bf68ebf41c7cca9e13d-with-play.gif">
@@ -39,11 +39,16 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 
 ### Core Features
 
-- [ ] User can click to expand the shopping cart in the left navigation.
-- [ ] Users can click the '+' button on a product cart to increment that product in the shopping cart.
-- [ ] Users can click the '-' button on a product cart to decrement that product in the shopping cart. If the count is zero, the product should be removed from the cart.
-- [ ] The shopping cart displays a table of products, quantities, subtotal, tax, and total.
-- [ ] Users can checkout, and receive a receipt confirming their purchase.
+- [X] User can click to expand the shopping cart in the left navigation.
+- [X] Users can click the '+' button on a product cart to increment that product in the shopping cart.
+- [X] Users can click the '-' button on a product cart to decrement that product in the shopping cart. If the count is zero, the product should be removed from the cart.
+- [X] The shopping cart displays a table of products, quantities, subtotal, tax, and total.
+- [X] Users can checkout, and receive a receipt confirming their purchase.
+
+# Walkthrough
+<a href="https://www.loom.com/share/0170e25bc3284e70a425e0e1c9578785">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/0170e25bc3284e70a425e0e1c9578785-with-play.gif">
+  </a>
 
 ### Stretch Features
 
