@@ -11,7 +11,7 @@ const ProductDetail = () => {
   try {
     const res =  await axios.get(`http://localhost:3001/store/${productId}`)
     if (res?.data) {
-      setItemDetails(res.data.products)
+      setItemDetails(res.data)
     } else {
       console.error("Something went wrong.")
     }

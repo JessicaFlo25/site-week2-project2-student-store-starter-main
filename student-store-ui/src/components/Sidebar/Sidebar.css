@@ -1,0 +1,19 @@
+.side-bar{
+    z-index:100;
+}
+
+
+.closed {
+    background-color: red;
+    height: 100%;
+    width: 150px;
+    position: fixed;
+
+}
+
+.open {
+    background-color: red;
+    height: 100%;
+    width: 350px;
+    position: fixed; 
+}
