@@ -29,7 +29,7 @@ console.log("sidebar shpcart : ", shoppingCart)
   return (
     <div className='side-bar'>
       <div className= {sidebarStatus}>
-        <button onClick = {handleToggle}  className ='toggle-button'>Test</button> 
+        <button onClick = {handleToggle}  className ='toggle-button'>Sidebar</button> 
         {sidebarStatus === 'open'? <div><Shoppingcart products={products}
           shoppingCart={shoppingCart}
         /></div>:null}

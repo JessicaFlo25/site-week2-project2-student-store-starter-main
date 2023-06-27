@@ -1,5 +1,6 @@
 import React from "react";
 import ProductCard from "../Product Card/ProductCard";
+import ProductDetail from "../ProductDetail/ProductDetail";
 import "./ProductGrid.css";
 
 const ProductGrid = ({
@@ -28,7 +29,10 @@ const ProductGrid = ({
             handleAddItemToCart={handleAddItemToCart} 
             removeItemFromCart={removeItemFromCart}
             shoppingCart={shoppingCart}
-           />)}
+           />
+           )}
+           {/* <ProductDetail product={product}/> */}
+           {/* just passed to product detail */}
     </div>
   );
 };

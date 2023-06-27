@@ -18,11 +18,11 @@ const Shoppingcart = ({products,shoppingCart}) => {
             return(
 
                     <div>
-                        <h1>{foundProducts.name}</h1>
-                        <h2>{item.quantity}</h2>
+                        <p>{foundProducts.name}</p>
+                        <p>{item.quantity}</p>
                     </div>
                 )
-        })};
+        })}
             {Object.keys(shoppingCart).map((item) => {
                 let x = 0 //will hold price before the tax
                 const tax = 0.0875

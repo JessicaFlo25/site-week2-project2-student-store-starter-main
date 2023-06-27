@@ -23,3 +23,14 @@ p {
   width: auto;
   
 }
+
+.product-price{
+  color:black;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.product-name{
+  font-family: monospace;
+  font-weight: bolder;
+}

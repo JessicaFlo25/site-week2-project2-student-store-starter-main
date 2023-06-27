@@ -1,0 +1,102 @@
+.sub-nav{
+    text-align: center;
+    padding: 50px;
+    position: relative;
+
+}
+
+.search-bar{
+    border-radius: 50px;
+    padding:20px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px brown;
+    border-width: 2px;
+}
+
+.first-b{
+    margin-left: 80px;
+    border-radius: 50px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 18px;
+    background-color: black;
+    color:white;
+    border:100px;
+    box-shadow:5px 10px 18px brown;
+}
+
+.first-b:hover {
+    background-color:brown; /* Green */
+    color: white;
+  }
+
+.second-b{
+
+    margin-left: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 18px;
+    background-color: black;
+    color:white;
+    border:100px;
+    box-shadow:5px 10px 18px brown;
+
+}
+
+.second-b:hover {
+    background-color:brown; /* Green */
+    color: white;
+  }
+
+.third-b{
+    margin-left: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 18px;
+    background-color: black;
+    color:white;
+    border:100px;
+    box-shadow:5px 10px 18px brown;
+}
+.third-b:hover {
+    background-color:brown; /* Green */
+    color: white;
+  }
+
+.fourth-b{
+    margin-left: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 18px;
+    background-color: black;
+    color:white;
+    border:100px;
+    box-shadow:5px 10px 18px brown;
+}
+.fourth-b:hover {
+    background-color:brown; /* Green */
+    color: white;
+  }
+
+.fifth-b{
+    margin-left:50px;
+    border-radius: 50px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 18px;
+    background-color: black;
+    color:white;
+    border:100px;
+    box-shadow:5px 10px 18px brown;
+}
+.fifth-b:hover {
+    background-color:brown; /* Green */
+    color: white;
+  }

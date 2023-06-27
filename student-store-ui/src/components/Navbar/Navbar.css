@@ -27,6 +27,7 @@ li a {
     background-color: black; 
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
+    margin-left: 100px;
 } 
 
 .navbar ul{

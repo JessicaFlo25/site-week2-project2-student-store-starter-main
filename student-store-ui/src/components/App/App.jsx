@@ -19,12 +19,9 @@ const checkoutFormInputData = {
   const[lastPurchase,setLastPurchase] =useState([])
   const[checkoutInput,setCheckoutInput] = useState(checkoutFormInputData)
   const [products, setProducts] = useState([]);
-  const [isFetching, setFetching] = useState(false);
-  const [error, setError] = useState("");
-  const [isOpen, setOpen] = useState(false);
-  const [shoppingCart, setShoppingCart] = useState({}); //holds the id and the quantity
+  const [shoppingCart, setShoppingCart] = useState({}); //holds the id and the quantity & need in product details too
   const[count,setCounter]= useState(0)
-  const handleAddItemToCart = (productID) => { 
+  const handleAddItemToCart = (productID) => { //also need in product details
     setCounter(count+1)
     console.log("counter",count)
     if(`${productID}` in shoppingCart){
@@ -35,7 +32,7 @@ const checkoutFormInputData = {
     console.log(shoppingCart)
 
   }
-const removeItemFromCart = (productID) => {
+const removeItemFromCart = (productID) => { //product details also needs
   if(`${productID}` in shoppingCart){
     if(shoppingCart[productID]===1){
       //delete shoppingCart[productID] was not updating the shoppingcart object, so we have to use the setter function to update the object rather than us directly deleting it
@@ -115,9 +112,11 @@ const handleCheckoutFormSubmit = (event) => {
               path="/products/:productId"
               element={
                 <ProductDetail
-                  // shoppingCart={shoppingCart}
-                  // setShoppingCart={setShoppingCart}
-                />
+                  shoppingCart={shoppingCart}
+                  setShoppingCart={setShoppingCart}
+                  removeItemFromCart={removeItemFromCart}
+                  products={products}
+                  handleAddItemToCart={handleAddItemToCart}/>
               }
             />
             <Route path="*" element={<NotFound />} />

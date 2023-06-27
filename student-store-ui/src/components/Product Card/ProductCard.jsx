@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./ProductCard.css";
+import ProductDetail from "../ProductDetail/ProductDetail";
 
 const ProductCard = ({ product, handleAddItemToCart,removeItemFromCart, shoppingCart }) => {
 
@@ -20,7 +21,7 @@ const ProductCard = ({ product, handleAddItemToCart,removeItemFromCart, shopping
       </Link>
       <div className="box">
         <h1 className="product-name">{product.name}</h1>
-        <p className="product-price">price: ${product.price.toFixed(2)}</p>
+        <p className="product-price">Price: ${product.price.toFixed(2)}</p>
         <button onClick={() => handleAddItemToCart(product.id)}>+</button>
         <button onClick={() => removeItemFromCart(product.id)}>-</button>
         {/* {console.log("ProdCard Quant",product.id, getQuantity(product.id))} */}
@@ -28,6 +29,8 @@ const ProductCard = ({ product, handleAddItemToCart,removeItemFromCart, shopping
           
           <h2>{getQuantity(product.id)}</h2>
         ) : (<p>0</p>)} 
+        {/* <ProductDetail getQuantity={getQuantity} />  */}
+        {/* passing down above function to product details */}
         {/* when the item is removed, trying to remove the last 1 item does not display zero */}
       </div>
     </div>
